@@ -1,0 +1,70 @@
+{
+  "Layouts": [
+    {
+      "Name": "Menu",
+      "Commands": [
+        {
+          "Trigger": "Escape",
+          "Action": "ToggleMenu",
+          "IsToggle":  true
+        },
+        {
+          "Trigger": "F1",
+          "Action": "ToggleDebugInfo",
+          "IsToggle": true
+        }
+      ]
+    },
+    {
+      "Name": "Game",
+      "Commands": [
+        {
+          "Trigger": "Escape",
+          "Action": "ToggleMenu",
+          "IsToggle": true
+        },
+        {
+          "Trigger": "F1",
+          "Action": "ToggleDebugInfo",
+          "IsToggle": true
+        },
+        {
+          "Trigger": "W",
+          "Action": "Forward"
+        },
+        {
+          "Trigger": "S",
+          "Action": "Backward"
+        },
+        {
+          "Trigger": "A",
+          "Action": "Left"
+        },
+        {
+          "Trigger": "D",
+          "Action": "Right"
+        },
+        {
+          "Trigger": "Space",
+          "Action": "Up"
+        },
+        {
+          "Trigger": "C",
+          "Action": "Down"
+        },
+        {
+          "Trigger": "LeftShift",
+          "Action": "Sprint"
+        },
+        {
+          "Trigger": "LeftControl",
+          "Action": "Crouch"
+        },
+        {
+          "Trigger": "X",
+          "Action": "Orbit"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+/.vs
+/obj/Debug
+/bin/Debug
+/MyGame/bin/Debug
+/MyGame/Content/bin/DesktopGL/Content
+/MyGame/Content/obj/DesktopGL/Content
+/MyGame/obj/Debug
+*.user
+/packages
+/Starlight.Core/bin/Debug
+/Starlight.Core/obj/Debug

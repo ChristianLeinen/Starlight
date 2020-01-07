@@ -1,0 +1,39 @@
+{
+  "Layouts": [
+    {
+      "Name": "Menu",
+      "Commands": [
+        {
+          "Trigger": "LeftButton",
+          "Action": "Click",
+          "IsToggle": true
+        }
+      ]
+    },
+    {
+      "Name": "Game",
+      "Commands": [
+        {
+          "Trigger": "LeftButton",
+          "Action": "Primary"
+        },
+        {
+          "Trigger": "X",
+          "Action": "Yaw"
+        },
+        {
+          "Trigger": "Y",
+          "Action": "Pitch"
+        },
+        {
+          "Trigger": "Scroll",
+          "Action": "dummy"
+        },
+        {
+          "Trigger": "HorzScroll",
+          "Action": "dummy2"
+        }
+      ]
+    }
+  ]
+}
